@@ -16,7 +16,7 @@ public class StartNavigationActivity  extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu,menu);
+        inflater.inflate(R.menu.drawer_menu,menu);
         return super.onCreateOptionsMenu(menu);
     }
 }
